@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PPP_IFACE="$1"
+PPP_TTY="$2"
+PPP_SPEED="$3"
+PPP_LOCAL="$4"
+PPP_REMOTE="$5"
+PPP_IPPARAM="$6"
+
+logger PPP Down $PPP_IFACE $PPP_TTY $PPP_SPEED $PPP_LOCAL $PPP_REMOTE $PPP_IPPARAM
+
+
+/etc/loadshare/ip-down.sh $PPP_TTY $PPP_LOCAL $PPP_REMOTE
+

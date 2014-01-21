@@ -1,0 +1,12 @@
+OpenVPN CLIENT LIST
+Updated,Tue Jan 21 15:04:48 2014
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+client2,115.170.7.5:1194,34268,28029,Tue Jan 21 14:56:08 2014
+ROUTING TABLE
+Virtual Address,Common Name,Real Address,Last Ref
+ae:cf:ee:26:c8:51,client2,115.170.7.5:1194,Tue Jan 21 15:03:48 2014
+d2:1e:c7:18:ce:be,client2,115.170.7.5:1194,Tue Jan 21 14:56:12 2014
+9a:ea:b0:a8:bb:43,client2,115.170.7.5:1194,Tue Jan 21 14:57:41 2014
+GLOBAL STATS
+Max bcast/mcast queue length,1
+END
