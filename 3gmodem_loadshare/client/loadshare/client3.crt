@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=CN, ST=BJ, L=Beijing, O=UbuntuLoadShare, OU=Network, CN=UbuntuLoadshareServer/name=LoadShare/emailAddress=alps.xing@gmail.com
+        Validity
+            Not Before: Jan 22 02:45:44 2014 GMT
+            Not After : Jan 20 02:45:44 2024 GMT
+        Subject: C=CN, ST=BJ, L=Beijing, O=UbuntuLoadShare, OU=changeme, CN=client3/name=changeme/emailAddress=alps.xing@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:e7:15:ff:21:4e:9b:c0:98:71:1d:0f:59:2a:5e:
+                    4f:70:37:12:24:3c:37:8b:09:45:a7:36:78:67:d9:
+                    54:08:b7:7a:d5:c7:90:77:11:d0:d9:f1:2e:fa:83:
+                    f3:68:a2:dd:c9:0a:67:4e:57:77:77:c1:eb:1c:6f:
+                    6b:18:45:d2:99:49:e1:ff:b9:13:ea:44:74:37:d9:
+                    16:c0:98:a4:12:bc:4d:cf:c1:21:b7:89:29:9f:59:
+                    bc:39:56:49:25:c5:73:75:30:9f:65:76:ec:9d:40:
+                    6c:6d:dd:e2:5a:ee:99:ac:c1:2a:2a:dc:4e:ef:1e:
+                    9a:83:9c:2a:37:47:4d:f1:db
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                0A:99:F4:D4:46:12:C3:8D:E0:2D:77:6A:D6:09:E2:51:9D:F6:BE:7E
+            X509v3 Authority Key Identifier: 
+                keyid:6B:8F:EE:BE:41:37:EB:62:11:E3:FF:53:F0:8F:0D:EF:8E:67:43:3A
+                DirName:/C=CN/ST=BJ/L=Beijing/O=UbuntuLoadShare/OU=Network/CN=UbuntuLoadshareServer/name=LoadShare/emailAddress=alps.xing@gmail.com
+                serial:D9:09:60:3C:A3:63:FC:0F
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         0f:c7:df:f0:aa:55:db:07:4f:e3:06:92:ed:07:79:68:78:26:
+         a5:9d:0e:1e:8b:8a:66:8c:8d:13:fc:24:57:35:7d:68:2d:4a:
+         05:b4:4e:09:53:06:6c:eb:12:fd:0b:b3:45:83:09:7e:aa:c5:
+         ed:2e:cb:13:a1:b3:5b:4e:01:4a:b7:5d:15:19:a5:f6:64:90:
+         36:c1:b4:d2:d9:15:24:00:20:e6:59:44:60:21:3a:e0:d6:57:
+         8a:62:1e:76:bc:16:d8:97:93:22:0b:c8:c0:92:35:64:af:5b:
+         7b:e3:83:75:df:f7:3a:0e:5d:9c:c8:d6:5b:05:07:85:81:4f:
+         1e:92
+-----BEGIN CERTIFICATE-----
+MIIEMzCCA5ygAwIBAgIBBDANBgkqhkiG9w0BAQUFADCBsDELMAkGA1UEBhMCQ04x
+CzAJBgNVBAgTAkJKMRAwDgYDVQQHEwdCZWlqaW5nMRgwFgYDVQQKEw9VYnVudHVM
+b2FkU2hhcmUxEDAOBgNVBAsTB05ldHdvcmsxHjAcBgNVBAMTFVVidW50dUxvYWRz
+aGFyZVNlcnZlcjESMBAGA1UEKRMJTG9hZFNoYXJlMSIwIAYJKoZIhvcNAQkBFhNh
+bHBzLnhpbmdAZ21haWwuY29tMB4XDTE0MDEyMjAyNDU0NFoXDTI0MDEyMDAyNDU0
+NFowgaIxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJCSjEQMA4GA1UEBxMHQmVpamlu
+ZzEYMBYGA1UEChMPVWJ1bnR1TG9hZFNoYXJlMREwDwYDVQQLEwhjaGFuZ2VtZTEQ
+MA4GA1UEAxMHY2xpZW50MzERMA8GA1UEKRMIY2hhbmdlbWUxIjAgBgkqhkiG9w0B
+CQEWE2FscHMueGluZ0BnbWFpbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJ
+AoGBAOcV/yFOm8CYcR0PWSpeT3A3EiQ8N4sJRac2eGfZVAi3etXHkHcR0NnxLvqD
+82ii3ckKZ05Xd3fB6xxvaxhF0plJ4f+5E+pEdDfZFsCYpBK8Tc/BIbeJKZ9ZvDlW
+SSXFc3Uwn2V27J1AbG3d4lrumazBKircTu8emoOcKjdHTfHbAgMBAAGjggFnMIIB
+YzAJBgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQg
+Q2VydGlmaWNhdGUwHQYDVR0OBBYEFAqZ9NRGEsON4C13atYJ4lGd9r5+MIHlBgNV
+HSMEgd0wgdqAFGuP7r5BN+tiEeP/U/CPDe+OZ0M6oYG2pIGzMIGwMQswCQYDVQQG
+EwJDTjELMAkGA1UECBMCQkoxEDAOBgNVBAcTB0JlaWppbmcxGDAWBgNVBAoTD1Vi
+dW50dUxvYWRTaGFyZTEQMA4GA1UECxMHTmV0d29yazEeMBwGA1UEAxMVVWJ1bnR1
+TG9hZHNoYXJlU2VydmVyMRIwEAYDVQQpEwlMb2FkU2hhcmUxIjAgBgkqhkiG9w0B
+CQEWE2FscHMueGluZ0BnbWFpbC5jb22CCQDZCWA8o2P8DzATBgNVHSUEDDAKBggr
+BgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAD8ff8KpV2wdP
+4waS7Qd5aHgmpZ0OHouKZoyNE/wkVzV9aC1KBbROCVMGbOsS/QuzRYMJfqrF7S7L
+E6GzW04BSrddFRml9mSQNsG00tkVJAAg5llEYCE64NZXimIedrwW2JeTIgvIwJI1
+ZK9be+ODdd/3Og5dnMjWWwUHhYFPHpI=
+-----END CERTIFICATE-----

@@ -2,11 +2,12 @@
 
 ppp_ip1="$1"
 ppp_gwip1="$2"
+ppp_if="$3"
 
 echo "$ppp_ip1 $ppp_gwip1"
 
-ip route add "$ppp_gwip1" dev ppp1 src "$ppp_ip1" scope link table 101
-ip route add default via "$ppp_gwip1" dev ppp1 table 101
+ip route add "$ppp_gwip1" dev "$ppp_if" src "$ppp_ip1" scope link table 101
+ip route add default via "$ppp_gwip1" dev "$ppp_if" table 101
 ip rule add from "$ppp_ip1" table 101 prio 20001
 
 tunctl -d tap1

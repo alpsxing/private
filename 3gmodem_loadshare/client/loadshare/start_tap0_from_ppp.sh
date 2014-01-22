@@ -2,11 +2,12 @@
 
 ppp_ip0="$1"
 ppp_gwip0="$2"
+ppp_if="$3"
 
 logger Start tap0  "$ppp_ip0 $ppp_gwip0"
 
-ip route add "$ppp_gwip0" dev ppp0 src "$ppp_ip0" scope link table 100
-ip route add default via "$ppp_gwip0" dev ppp0 table 100
+ip route add "$ppp_gwip0" dev "$ppp_if" src "$ppp_ip0" scope link table 100
+ip route add default via "$ppp_gwip0" dev "$ppp_if" table 100
 ip rule add from "$ppp_ip0" table 100 prio 20000
 
 tunctl -d tap0

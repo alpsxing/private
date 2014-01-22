@@ -19,4 +19,5 @@ ip route add default via 10.10.0.1 dev bond0
 
 /etc/loadshare/start_unicom.sh &
 /etc/loadshare/start_telecom.sh &
+/etc/loadshare/start_cmcc.sh &
 
